@@ -16,6 +16,7 @@ WIN_COMBINATIONS =[
 
 def won?(board)
   WIN_COMBINATIONS.each do |combo|
+<<<<<<< HEAD
     if board[combo[0]] != " " && board[combo[0]] == board[combo[1]] && board[combo[1]] == board[combo[2]]
     return combo
   end
@@ -53,3 +54,12 @@ def winner(board)
     board[win_combination[0]]
   end
 end
+=======
+     board[combo[0]] != " " && board[combo[0]] == board[combo[1]] && board[combo[1]] == board[combo[2]]
+     
+  end
+end
+
+def full? (board)
+end  
+>>>>>>> e90d4782ebdefc21e2c4ae4494cd06ba6cd9cf7a
